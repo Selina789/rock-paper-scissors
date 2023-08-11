@@ -1,0 +1,158 @@
+html{
+  background-color: rgb(255, 182, 231);
+}
+body{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.title{
+  letter-spacing: 5px;
+  color: white;
+  font-size: 80px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: purple;
+  margin: 0;
+}
+.text-alert{
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: underline;
+  color: rgb(66, 66, 66);
+}
+
+.div-breaker{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 8%;
+}
+
+.us{
+  color: rgb(28, 226, 28);
+}
+.them{
+  color: red;
+}
+.fight{
+  position: fixed;
+  font-size: 100px;
+  color: white;
+}
+
+.emoji{
+  width: 100%;
+  height: 60px;
+  font-size: 100px;
+  margin: 0;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  GAP: 20px;
+}
+.pick-button-link{
+  text-decoration: none;
+  color: white;
+}
+
+.hit-play,
+.pick-button{
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 10px 4% 10px 4%;
+  font-size: 32px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  background-color: orange;
+  color: white;
+  border: 4px solid black;
+  border-radius: 40px;
+}
+.hit-play:hover,
+.pick-button:hover{
+  background-color: rgb(255, 208, 121);
+}
+.hit-play:active,
+.pick-button:active{
+  background-color: orange;
+}
+
+.score-block{
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: 'Kanit', sans-serif;
+  font-style: italic;
+}
+
+.count,
+.delete{
+  margin: 0;
+}
+
+.delete{
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 3px 15px 3px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Kanit', sans-serif;
+  background-color: rgb(96, 255, 96);
+  border: 3px solid black;
+  border-radius: 30px;
+}
+.delete:hover{
+  background-color: rgb(179, 255, 179);
+}
+.delete:active{
+  background-color: rgb(96, 255, 96);
+}
+
+/* PICK MODE */
+.div-breaker-1{
+  margin: auto;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+  column-gap: 200px;
+}
+
+.choices{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  border: none;
+}
+
+.choices-part{
+  cursor:pointer;
+  padding: 5px 12px 5px 12px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
+  background-color: transparent;
+    border: none;
+}
+.choices-part:hover{
+  font-style: italic;
+}
+
+.fight-1{
+  font-size: 100px;
+  color: white;
+  position: fixed;
+}
+
+.right-part-1{
+  padding-right: 10%;
+}

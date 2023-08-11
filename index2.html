@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,800;1,400&family=Lobster&family=Noto+Serif+Vithkuqi:wght@600&family=Vina+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="title"> ROCK, PAPER, SCISSORS!</h1>
+
+    <p id="text-change" class="text-alert"> Choose one of the hand to start the game!</p>
+
+    <div class="div-breaker-1">
+      <div class="left-part-1">
+        <p class="us"> You </p>
+        
+        <div class="choices">
+          <button id="clickRock" class="choices-part"> ✊ </button>
+          <button id="clickPaper" class="choices-part"> ✋ </button>
+          <button id="clickScissors" class="choices-part"> ✌️ </button>
+        </div>
+      </div>
+
+      <div class="fight-1">
+        <p> VS </p>
+      </div>
+
+      <div class="right-part-1">
+        <p class="them"> Enemy </p>
+        <p id="emoji-enemy" class="emoji"></p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="pick-button"> <a class="pick-button-link" href="index.html"> BOT MODE </a> </button>
+    </div>
+
+
+    <div id="score-section" class="score-block">
+      <p class="count"> Win: 0 Lose: 0 Tie: 0 </p>
+    </div>
+
+    <button class="delete" onclick="deleteAll()"> Reset Score</button>
+
+    <script src="index1.js"></script>
+  </body>
+</html>
